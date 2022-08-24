@@ -1,6 +1,6 @@
 <h1 align="center">Trabalho: Sistema Multitarefa</h1>
 
-<p aling="center'>Desenvolvedor Júlia Mello Lopes</p>
+<p aling="center">Desenvolvedor Júlia Mello Lopes</p>
 
 ## Introdução
 
