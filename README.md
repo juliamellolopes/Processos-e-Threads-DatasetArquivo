@@ -1,5 +1,7 @@
 <h1 align="center">Trabalho: Sistema Multitarefa</h1>
 
+<p aling="center'>Desenvolvedor Júlia Mello Lopes</p>
+
 ## Introdução
 
 <p>Neste trabalho vamos construir um sistema de classificação cujas características nos permitirão observar conceitos importantes como: escalonamento e gestão de memória primária, na linguagem C++. 
