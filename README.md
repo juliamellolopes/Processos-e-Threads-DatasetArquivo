@@ -1,6 +1,11 @@
 <h1 align="center">Trabalho: Sistema Multitarefa</h1>
 
-<p aling="center">Desenvolvedor Júlia Mello Lopes</p>
+<p align="center">Deenvolvedor Julia Mello Lopes</p>
+<p align="center">
+  <a href="#introdução">Introdução</a> -
+  <a href="#requisitos">Resquisitos, instalação, compilação,execução</a> -
+  <a href="#etapa">Etapa 1</a>
+</p>
 
 ## Introdução
 
