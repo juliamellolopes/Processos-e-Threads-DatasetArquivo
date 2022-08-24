@@ -24,12 +24,12 @@ Neste sistema, vamos considerar duas bases de dados D e T. A base D será utiliz
     git@github.com:juliamellolopes/Processos-e-Threads-DatasetArquivo.git
 
 * ### Compilação:
-<p>Primeiro abra o repositório e execute o seguinte comando:<p\>
+<p>Primeiro abra o repositório e execute o seguinte comando:</p>
 
     make
     
 * ### Execução
-<p>Após copilar o arquivo execute o seguinte comando:<p\>
+<p>Após copilar o arquivo execute o seguinte comando:</p>
 
     make run 
 
@@ -37,5 +37,5 @@ Neste sistema, vamos considerar duas bases de dados D e T. A base D será utiliz
 
 <p>Nesssa etapa foi elaborada uma tabela hash para itens e classes, onde os dados serão armazenados, caso esse dado se repita sera armazenado o local de repetição.
 
-Toda a implementação dessa etapa esta na pasta src, dentro dos arquivos read.cpp e read.hpp. Nesses arquivos e feita leitura do arquivo D, que se encontra na pasta Arquivos, após a leitura, atraves da biblioteca map, é feito o armazenamento dos dados e como ele ignora as repetições, caso o dado se repita ele ia armazenar tambem onde se encontra essa repetição.
+Toda a implementação dessa etapa esta na pasta src, dentro dos arquivos read.cpp e read.hpp. Nesses arquivos e feita leitura do arquivo D, que se encontra na pasta Arquivos, após a leitura, o arquivo é tokenizado coluna por coluna para atraves da biblioteca map armazenar dos dados. Dessa maneira, como ele ignora as repetições, caso o dado se repita ele ia armazenar tambem onde se encontra essa repetição.
 
