@@ -3,8 +3,8 @@
 <p align="center">Deenvolvedor Julia Mello Lopes</p>
 <p align="center">
   <a href="#introdução">Introdução</a> -
-  <a href="#requisitos">Resquisitos, instalação, compilação,execução</a> -
-  <a href="#etapa">Etapa 1</a>
+  <a href="#requisitos">R.I.C.E</a> -
+  <a href="#etapa 1">Etapa 1</a>
 </p>
 
 ## Introdução
