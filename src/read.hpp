@@ -15,8 +15,13 @@ private:
 public:
 	Read();
 	~Read();
-	void readFile();
+	void readFile(string arq, bool b, 
+		unordered_map<string, vector<int>> *data, 
+		unordered_map<int, vector<string>> *dataT);
     void token(string linha, int cont, unordered_map<string, vector<int>> *data);
+	void tokenT(string linha, int cont, unordered_map<int, vector<string>> *dataT);
+	void processamento(unordered_map<string, vector<int>> *data, unordered_map<int, vector<string>> *dataT,  unordered_map<int, vector<string>> *combinacoes);
+	void combinacao(vector<string> pega, unordered_map<int, vector<string>> *salva, int chave);
 };
 
 #endif
