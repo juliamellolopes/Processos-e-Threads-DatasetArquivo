@@ -4,7 +4,8 @@
 <p align="center">
   <a href="#introdução">Introdução</a> -
   <a href="#requisitos">R.I.C.E</a> -
-  <a href="#etapa 1">Etapa 1</a>
+  <a href="#etapa 1">Etapa 1</a> -
+  <a href="#etapa 2">Etapa 2</a>
 </p>
 
 ## Introdução
@@ -39,3 +40,8 @@ Neste sistema, vamos considerar duas bases de dados D e T. A base D será utiliz
 
 Toda a implementação dessa etapa esta na pasta src, dentro dos arquivos read.cpp e read.hpp. Nesses arquivos e feita leitura do arquivo D, que se encontra na pasta Arquivos, após a leitura, o arquivo é tokenizado coluna por coluna para atraves da biblioteca map armazenar dos dados. Dessa maneira, como ele ignora as repetições, caso o dado se repita ele ia armazenar tambem onde se encontra essa repetição.
 
+## Etapa 2
+
+Nessa segunda etapa será feita uma leitura do arquivo T, tokenizando linha por linha para em seguida comparar os arquivos com a tabela hash de itens e selecionando os elementos em comum, depois é feito o amazenamento dessa permutação em um vector.
+
+Toda a implementação esta dentro da pasta src. No main será feita a criação dos vetores para armazenar os dados de comparados na hash e arquivo T e o chamado das funções que realizão a leitura, processamento dos arquivos, dentro do read.hpp. No arquivo read.cpp é implementado os metodos de tokenização, processamento e combinação para resolver essa etapa.
